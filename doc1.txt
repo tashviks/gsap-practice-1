@@ -1,0 +1,28 @@
+NAME -UJJWAL		
+SECTION-K21FH
+ROLL NO.-02
+
+QUESTION 01- in hol deploy a vm keeping into consideration that how future usable machine can be created
+STEP 01- Open the firefox in vm lab and login into the account
+STEP 02-select the host and click on actions
+STEP 03-now select "new virtual machine"
+STEP 04-select "create a new virtual machine " option and click on next
+STEP 05-choose a name for vm and select the folder
+STEP 06-now select a compute resource
+STEP 07-in this step select storage which is "ds-nfs01"
+STEP 08-in the compatibility section select "esxi-6.0 and above"
+STEP 09-select the guest os as windows 10
+STEP 10-in customize hardware section select 1 gb vram
+STEP 11-click finish and virtual machine will be generated
+QUESTION 02- Create a template of a clone and also mention where and why it is useful?
+STEP 01- click on the action tab of the vm we made
+STEP 02- now click on actions tab in vm and select clone and after providing name and storage click finish
+STEP 03-now that cloning is done click on the VMs and Templates icon on the left hand side menu.
+STEP 04- Now right click on the clone and select clone to template option
+STEP 05- Now select the name ,compute resource and storage and click on finish
+
+after making a template we can install additional software in the guest operating system, while preserving the original virtual machine, this is the main usefullness of making a template of a clone
+
+in hol deploy a vm keeping into consideration that how future usable machine can be created vram-1
+(create an environment of clone as linked clone and also mention why and where it is useful)
+create a template of a clone and also mention where and why it is useful ????????
